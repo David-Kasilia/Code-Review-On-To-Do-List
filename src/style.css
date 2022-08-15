@@ -1,0 +1,121 @@
+main {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  right: 30%;
+  width: 60%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gainsboro;
+  box-shadow: 3px 10px 10px rgb(0 0 0 / 15%);
+}
+
+.head-container {
+  margin: auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gainsboro;
+}
+
+#refresh {
+  margin-top: 25px;
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+  font-size: 28px;
+}
+
+#enter {
+  margin-right: 35px;
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+#addTask {
+  width: 50px;
+  height: 40px;
+  right: 10%;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: gray;
+}
+
+#task {
+  width: 90%;
+  height: 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gainsboro;
+}
+
+#clear-btn {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: gray;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 0;
+  position: relative;
+  border-top: 0.6px solid rgb(216, 216, 216);
+  border-right: none;
+  border-bottom: 0.6px solid rgb(216, 216, 216);
+  border-left: none;
+}
+
+.todo-edit {
+  border: none;
+}
+
+form input[type='text'] {
+  border: none;
+  font-style: italic;
+  width: 15%;
+  padding: 1%;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+.todo-item {
+  padding: 1%;
+  border-bottom: 0.6px solid rgb(216, 216, 216);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.remove-btn {
+  height: 28px;
+  width: 28px;
+  margin-right: 20px;
+}
+
+#refreshBtn {
+  outline: none;
+  border: none;
+}
